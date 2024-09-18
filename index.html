@@ -4,41 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
    <div class="container">
         <div class="calculator">
-            <div class="display">
-            </div>
-            <div class="2ndRow">
-                <button class="AC">AC</button>
-                <button class="DE">DE</button>
-                <button class="'/">/</button>
-            </div>
-            <div class="3rdRow">
-                <button class="9">9</button> 
-                <button class="8">8</button> 
-                <button class="7">7</button> 
-                <button class="*">*</button>
-            </div>
-            <div class="4thRow">
-                <button class="6">6</button> 
-                <button class="5">5</button> 
-                <button class="4">4</button>
-                <button class="+">+</button> 
-            </div>
-            <div class="5thRow">
-                <button class="3">3</button> 
-                <button class="2">2</button> 
-                <button class="1">1</button>
-                <button class="-">-</button> 
-            </div>
-            <div class="6thRow">
-                <button class="00">00</button> 
-                <button class="0">0</button> 
-                <button class="=">=</button> 
-            </div>
+            <form>
+                <div class="row1">
+                    <input type="text" name="display">
+                </div>
+                <div class="2ndRow">
+                    <button class="doubleWidth">AC</button>
+                    <button class="singleWidth">DE</button>
+                    <button class="singleWidth">/</button>
+                </div>
+                <div class="3rdRow">
+                    <button class="singleWidth">9</button> 
+                    <button class="singleWidth">8</button> 
+                    <button class="singleWidth">7</button> 
+                    <button class="singleWidth">*</button>
+                </div>
+                <div class="4thRow">
+                    <button class="singleWidth">6</button> 
+                    <button class="singleWidth">5</button> 
+                    <button class="singleWidth">4</button>
+                    <button class="singleWidth">+</button> 
+                </div>
+                <div class="5thRow">
+                    <button class="singleWidth">3</button> 
+                    <button class="singleWidth">2</button> 
+                    <button class="singleWidth">1</button>
+                    <button class="singleWidth">-</button> 
+                </div>
+                <div class="6thRow">
+                    <button class="singleWidth">00</button> 
+                    <button class="singleWidth">0</button> 
+                    <button class="doubleWidth">=</button> 
+                </div>
+            </form>
         </div>
    </div>
 </body>
